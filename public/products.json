@@ -65,6 +65,14 @@
       "subscription": "Yes (On Premise free)",
       "license": "MIT",
       "marketplace": "No"
+    },
+    {
+      "title": "UVDesk",
+      "link": "https://www.uvdesk.com/en/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "Yes (Free CE)",
+      "license": "MIT",
+      "marketplace": "Yes"
     }
   ],
   "confluence": [
