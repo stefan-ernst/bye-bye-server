@@ -1,0 +1,32 @@
+{
+  "name": "bye-bye-server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "animate.css": "^4.1.0",
+    "gray-matter": "^4.0.2",
+    "imagemin-optipng": "^8.0.0",
+    "jimp": "^0.16.0",
+    "next": "9.5.2",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.2",
+    "raw-loader": "^4.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-markdown": "^4.3.1",
+    "rebass": "^4.0.7",
+    "responsive-loader": "^2.0.1"
+  },
+  "devDependencies": {
+    "frontmatter-markdown-loader": "^3.6.0"
+  }
+}
