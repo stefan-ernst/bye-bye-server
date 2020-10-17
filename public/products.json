@@ -99,6 +99,14 @@
       "subscription": "No (Free)",
       "license": "MIT",
       "marketplace": "No"
+    },
+    {
+      "title": "Outline",
+      "link": "https://www.getoutline.com/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "Yes (Free CE)",
+      "license": "BSL",
+      "marketplace": "No"
     }
   ]
 }
