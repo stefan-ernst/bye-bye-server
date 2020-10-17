@@ -6,8 +6,7 @@ import React from "react";
 import ExternalLink from "../components/ExternalLink";
 import Features from "../components/Features";
 
-
-export default function Home() {
+export default function Home({products}) {
 
     return (
         <>
@@ -35,7 +34,7 @@ export default function Home() {
                 box-shadow: 0 0 1px 0 rgba(0,0,0,0.08), 0 1px 1px 0 rgba(0,0,0,0.08), 0 4px 8px 0 rgba(0,0,0,0.08);
                 }
                 .Announcement {
-                width: 500px;
+                max-width: 500px;
                 margin: auto;
                 
             }
@@ -53,6 +52,19 @@ export default function Home() {
                 font-size: 1.2rem;
                 font-weight: 400;
             }
+            @media only screen and (max-width: 1000px){
+                  main { 
+                    grid-area: Main;
+                    font-size: 1.5rem;
+                    min-height: 900px;
+                  }
+                  .Flex {
+                    flex-direction: column;
+                  }
+                  .Container {
+                    margin: 10px;
+                  }
+              }
             
                 `}
             </style>
@@ -63,64 +75,44 @@ export default function Home() {
                 <div className={'Content'}>
 
                     <div className={'Announcement Container'}>
-                        <h1>Announcement</h1>
+                        <h1>What is this about?</h1>
                     Atlassian has given customers advanced notice that their Server offering will be retired.
                     You can read the detailed announcement timeline
                         <ExternalLink url="https://www.atlassian.com/migration/key-offering-changes?tab=server-dates#important-dates"> here</ExternalLink>.
-                        <br />
+                        <br /><br />
+                        But don't panic - we will create curated list of alternatives. This site is currently work in progress.
                     </div>
                     <br />
-
+                    <br />
                     <div>
-                    <h1>Jira Alternatives</h1>
+                    <h1>Jira Software Alternatives</h1>
 
                         <div className={'Flex'}>
 
-                            <div className={'Container'}>
-                                <h2>Jira Cloud</h2>
-                                <Features list={{
-                                    link: "https://www.atlassian.com/software/jira",
-                                    hosting: "Cloud",
-                                    subscription: "Yes",
-                                    license: "Proprietary",
-                                    marketplace: "Yes"
-                                }} />
-                            </div>
+                            {products.jirasoftware.map(product => (
+                                <div key={product.title} className={'Container'}>
+                                    <h2>{product.title}</h2>
+                                    <Features list={product} />
+                                </div>
+                            ))}
 
-                            <div className={'Container'}>
-                                <h2>Taiga</h2>
-                                <Features list={{
-                                    link: "https://www.taiga.io/",
-                                    hosting: "Cloud, On Premise (on request)",
-                                    subscription: "Yes",
-                                    license: "Proprietary",
-                                    marketplace: "No"
-                                }} />
-                            </div>
-
-                            <div className={'Container'}>
-                                <h2>YouTrack</h2>
-                                <Features list={{
-                                    link: "https://www.jetbrains.com/youtrack/",
-                                    hosting: "Cloud, On Premise",
-                                    subscription: "Yes",
-                                    license: "Proprietary",
-                                    marketplace: "No"
-                                }} />
-                            </div>
-
-                            <div className={'Container'}>
-                                <h2>Phabricator</h2>
-                                <Features list={{
-                                    link: "https://www.phacility.com/phabricator/",
-                                    hosting: "Cloud, On Premise",
-                                    subscription: "Yes (On Premise free)",
-                                    license: "Apache 2.0",
-                                    marketplace: "No"
-                                }} />
-                            </div>
                         </div>
 
+                        <br />
+                        <br />
+                        <h1>Jira Service Desk Alternatives</h1>
+
+                        <div className={'Flex'}>
+
+
+                            {products.jiraservicedesk.map(product => (
+                                <div key={product.title} className={'Container'}>
+                                    <h2>{product.title}</h2>
+                                    <Features list={product} />
+                                </div>
+                            ))}
+
+                        </div>
 
                         <br />
                         <br />
@@ -128,41 +120,12 @@ export default function Home() {
 
                         <div className={'Flex'}>
 
-                            <div className={'Container'}>
-                                <h2>Confluence Cloud</h2>
-
-                                <Features list={{
-                                    link: "https://www.atlassian.com/software/jira",
-                                    hosting: "Cloud",
-                                    subscription: "Yes",
-                                    license: "Proprietary",
-                                    marketplace: "Yes"
-                                }} />
-                            </div>
-
-                            <div className={'Container'}>
-                                <h2>WikiJS</h2>
-
-                                <Features list={{
-                                    link: "https://wiki.js.org/",
-                                    hosting: "On Premise",
-                                    subscription: "No (Free)",
-                                    license: "AGPL-3.0",
-                                    marketplace: "No"
-                                }} />
-                            </div>
-
-                            <div className={'Container'}>
-                                <h2>BookStack</h2>
-
-                                <Features list={{
-                                    link: "https://www.bookstackapp.com/",
-                                    hosting: "On Premise",
-                                    subscription: "No (Free)",
-                                    license: "MIT",
-                                    marketplace: "No"
-                                }} />
-                            </div>
+                            {products.confluence.map(product => (
+                                <div key={product.title} className={'Container'}>
+                                    <h2>{product.title}</h2>
+                                    <Features list={product} />
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>
@@ -172,4 +135,18 @@ export default function Home() {
             </div>
         </>
     );
+}
+
+export async function getStaticProps() {
+    // Call an external API endpoint to get posts.
+    // You can use any data fetching library
+    const products = await require("../public/products.json");
+
+    // By returning { props: posts }, the Blog component
+    // will receive `posts` as a prop at build time
+    return {
+        props: {
+            products,
+        },
+    }
 }

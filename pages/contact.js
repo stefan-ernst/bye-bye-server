@@ -61,15 +61,27 @@ export default function Home() {
                 <main>
                     <div className={'Content'}>
                         <br />
-                        <h1>About us</h1>
+                        <h1>Legal</h1>
                         <br />
                         Disclosure:<br />
                         Apart from our existing
                         relationship with Atlassian through the Marketplace Partner program,<br />
                         we are unaffiliated with any vendors or products mentioned on this page. <br />
-                        We do not receive commissions or kick-backs.
+                        <br />
+
+                        While we have made every attempt to ensure that the information contained in this site has been obtained from reliable sources,
+                        Realigned Technologies is not responsible for any errors or omissions, or for the results obtained from the use of this information.
+                        All information in this site is provided "as is", with no guarantee of completeness, accuracy,
+                        timeliness or of the results obtained from the use of this information, and without warranty of any kind,
+                        express or implied, including, but not limited to warranties of performance, merchantability and fitness for a particular purpose.
+                        In no event will Realigned Technologies, its related partnerships or corporations, or the partners, agents or employees thereof
+                        be liable to you or anyone else for any decision made or action taken in reliance on the information in this Site or for any consequential,
+                        special or similar damages, even if advised of the possibility of such damages.
+
                         <br />
                     <br />
+                        <h1>About us</h1>
+                        <br />
                     Realigned Technologies Ltd<br />
                     Suurstoffi 16<br />
                     CH-6343 Rotkreuz<br />

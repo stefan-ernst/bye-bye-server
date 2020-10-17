@@ -47,6 +47,15 @@ export default function Styles() {
                 color: rgb(10, 198, 255);
                 text-decoration: none;
             }
+            @media only screen and (max-width: 1000px){
+            .grid-container {
+                      display: grid;
+                      grid-template-columns: 1fr;
+                      grid-template-rows: 110px 1fr 150px;
+                      gap: 0 0;
+                      grid-template-areas: "Header" "Main" "Footer";
+                    }
+            }
             `}
         </style>
     </>);

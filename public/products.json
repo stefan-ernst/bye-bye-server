@@ -1,0 +1,80 @@
+{
+  "jirasoftware": [
+    {
+      "title": "Jira Software Cloud",
+      "link": "https://www.atlassian.com/software/jira",
+      "hosting": "Cloud",
+      "subscription": "Yes",
+      "license": "Proprietary",
+      "marketplace": "Yes"
+    },
+    {
+      "title": "Taiga",
+      "link": "https://www.taiga.io/",
+      "hosting": "Cloud, On Premise (on request)",
+      "subscription": "Yes",
+      "license": "Proprietary",
+      "marketplace": "No"
+    },
+    {
+      "title": "YouTrack",
+      "link": "https://www.jetbrains.com/youtrack/",
+      "hosting": "Cloud, On Premise",
+      "subscription": "Yes",
+      "license": "Proprietary",
+      "marketplace": "No"
+    },
+    {
+      "title": "Phabricator",
+      "link": "https://www.phacility.com/phabricator/",
+      "hosting": "Cloud, On Premise",
+      "subscription": "Yes (On Premise free)",
+      "license": "Apache 2.0",
+      "marketplace": "No"
+    }
+  ],
+  "jiraservicedesk": [
+    {
+      "title": "Jira Service Desk Cloud",
+      "link": "https://www.atlassian.com/de/software/jira/service-desk",
+      "hosting": "Cloud",
+      "subscription": "Yes",
+      "license": "Proprietary",
+      "marketplace": "Yes"
+    },
+    {
+      "title": "Helpy",
+      "link": "https://helpy.io/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "Yes (On Premise free)",
+      "license": "MIT",
+      "marketplace": "No"
+    }
+  ],
+  "confluence": [
+    {
+      "title": "Confluence Cloud",
+      "link": "https://www.atlassian.com/software/confluence",
+      "hosting": "Cloud",
+      "subscription": "Yes",
+      "license": "Proprietary",
+      "marketplace": "Yes"
+    },
+    {
+      "title": "WikiJS",
+      "link": "https://wiki.js.org/",
+      "hosting": "On Premise",
+      "subscription": "No (Free)",
+      "license": "AGPL-3.0",
+      "marketplace": "No"
+    },
+    {
+      "title": "Bookstack",
+      "link": "https://www.bookstackapp.com/",
+      "hosting": "On Premise",
+      "subscription": "No (Free)",
+      "license": "MIT",
+      "marketplace": "No"
+    }
+  ]
+}

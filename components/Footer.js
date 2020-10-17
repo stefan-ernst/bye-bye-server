@@ -48,7 +48,7 @@ export default function Footer() {
 
             <br />
 
-            &copy; 2020 Stefan Ernst<br/>
+            &copy; 2020 Realigned Technologies Ltd<br/>
 
         </footer>
         </>

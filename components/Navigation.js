@@ -34,6 +34,12 @@ export default function Navigation() {
             .Logo {
                 min-width: 280px;
             }
+            @media only screen and (max-width: 1000px){
+            .Logo {
+                width: 100%;
+                min-width: 0;
+            }
+            }
            `}
             </style>
             <div className={'Header'}>
