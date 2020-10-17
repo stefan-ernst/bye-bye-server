@@ -77,7 +77,7 @@ export default function Home({products}) {
 
                     <div className={'Announcement Container'}>
                         <h1>What is this about?</h1>
-                    Atlassian has given customers advanced notice that their Server offering will be retired.
+                    Atlassian has given customers advance notice that their Server offering will be retired.
                     You can read the detailed announcement timeline
                         <ExternalLink url="https://www.atlassian.com/migration/key-offering-changes?tab=server-dates#important-dates"> here</ExternalLink>.
                         <br /><br />
