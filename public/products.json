@@ -17,6 +17,14 @@
       "marketplace": "No"
     },
     {
+      "title": "OpenProject",
+      "link": "https://www.openproject.org/",
+      "hosting": "Cloud, On Premise",
+      "subscription": "Yes (Free CE)",
+      "license": "GPL v3",
+      "marketplace": "No"
+    },
+    {
       "title": "Taiga",
       "link": "https://www.taiga.io/",
       "hosting": "Cloud, On Premise (on request)",
