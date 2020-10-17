@@ -81,7 +81,8 @@ export default function Home({products}) {
                     You can read the detailed announcement timeline
                         <ExternalLink url="https://www.atlassian.com/migration/key-offering-changes?tab=server-dates#important-dates"> here</ExternalLink>.
                         <br /><br />
-                        But don't panic - we will create curated list of alternatives. This site is currently work in progress.
+                        But don't panic - we will create a curated list of alternatives. This site is currently work in progress.
+                        Feel free to send us a PR on <ExternalLink url="https://github.com/realignedtechnologies/bye-bye-server">Github</ExternalLink>.
                     </div>
                     <br />
                     <br />

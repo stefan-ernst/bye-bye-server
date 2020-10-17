@@ -44,7 +44,7 @@ export default function Navigation() {
             </style>
             <div className={'Header'}>
                 <nav role="navigation" aria-label="Main">
-                <Link href="/"><a><img src={Logo} className={'Logo'} /></a></Link>
+                <Link href="/"><a><img src={Logo} className={'Logo'} alt="Bye-Bye-Server - Alternatives to Atlassian Server products" /></a></Link>
                 </nav>
             </div>
         </>
