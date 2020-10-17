@@ -41,6 +41,7 @@ export default function Home({products}) {
             .Flex {
                 display: flex;
                 justify-content: flex-start;
+                flex-wrap: wrap;
             }
             h1, h2, h3 {
                 padding: 0;

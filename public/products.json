@@ -9,19 +9,27 @@
       "marketplace": "Yes"
     },
     {
-      "title": "Taiga",
-      "link": "https://www.taiga.io/",
-      "hosting": "Cloud, On Premise (on request)",
-      "subscription": "Yes",
-      "license": "Proprietary",
-      "marketplace": "No"
-    },
-    {
       "title": "YouTrack",
       "link": "https://www.jetbrains.com/youtrack/",
       "hosting": "Cloud, On Premise",
       "subscription": "Yes",
       "license": "Proprietary",
+      "marketplace": "No"
+    },
+    {
+      "title": "Taiga",
+      "link": "https://www.taiga.io/",
+      "hosting": "Cloud, On Premise (on request)",
+      "subscription": "Yes",
+      "license": "AGPL-3.0",
+      "marketplace": "No"
+    },
+    {
+      "title": "Leantime",
+      "link": "https://leantime.io/",
+      "hosting": "Cloud, On Premise",
+      "subscription": "Yes",
+      "license": "GPL v2",
       "marketplace": "No"
     },
     {
