@@ -1,12 +1,13 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Link from "next/link";
 import Navigation from "../components/Navigation";
 import React from "react";
 import ExternalLink from "../components/ExternalLink";
 import Features from "../components/Features";
+import matter from "gray-matter";
+import BlogList from "../components/BlogList";
 
-export default function Home({products}) {
+export default function Home({products, posts}) {
 
     return (
         <>
@@ -129,7 +130,17 @@ export default function Home({products}) {
                                 </div>
                             ))}
                         </div>
+
+                        <br />
+                        <br />
+
+                        <h1>Latest Blog Posts</h1>
+
+                        <BlogList posts={posts} />
+
+
                     </div>
+
                 </div>
                 </main>
 
@@ -144,11 +155,28 @@ export async function getStaticProps() {
     // You can use any data fetching library
     const products = await require("../public/products.json");
 
+    const posts = ((context) => {
+        const keys = context.keys()
+        const values = keys.map(context)
+
+        const data = keys.map((key, index) => {
+            let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
+            const value = values[index]
+            const document = matter(value.default)
+            return {
+                slug: slug.replace('.',''),
+                ...document.data
+            }
+        })
+        return data
+    })(require.context('../_posts/blog', true, /\.mdx$/))
+
+
     // By returning { props: posts }, the Blog component
     // will receive `posts` as a prop at build time
     return {
         props: {
-            products,
+            products, posts
         },
     }
 }
