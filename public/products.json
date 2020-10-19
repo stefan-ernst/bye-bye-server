@@ -59,6 +59,14 @@
       "marketplace": "Yes"
     },
     {
+      "title": "Deskpro",
+      "link": "https://www.deskpro.com/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "Yes",
+      "license": "Proprietary + Visible Source",
+      "marketplace": "Yes"
+    },    
+    {
       "title": "Helpy",
       "link": "https://helpy.io/",
       "hosting": "Cloud / On Premise",
