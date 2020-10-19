@@ -62,6 +62,7 @@ export default function Post({frontMatter, markdownBody}) {
                         <h2>{frontMatter.title}</h2>
 
                             <div className={'center-cropped'}></div>
+                            <div style={{textAlign:'right'}}><small>{frontMatter.copyright}</small></div>
                             <br />
 
                             <ReactMarkdown source={markdownBody}/>

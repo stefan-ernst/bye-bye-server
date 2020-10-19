@@ -49,7 +49,7 @@ export default function BlogList({posts}) {
         <div style={{flexDirection:'column',justifyContent:'center'}}>
             {!posts && <div>No posts!</div>}
             {posts &&
-            posts.map((post, index) => {
+            posts.sort((a,b) => new Date(b.date) - new Date(a.date)).map((post, index) => {
                 return (
                     <div className={'Flex'} key={index}>
                         <div className={'half image'}> <img src={post.coverImage} style={{width:'100%',maxWidth:500}} /></div>
