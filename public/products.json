@@ -107,6 +107,14 @@
       "subscription": "Yes (Free CE)",
       "license": "BSL",
       "marketplace": "No"
+    },
+    {
+      "title": "XWiki",
+      "link": "https://www.xwiki.org/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "Yes (Free CE)",
+      "license": "LGPL",
+      "marketplace": "Yes"
     }
   ]
 }
