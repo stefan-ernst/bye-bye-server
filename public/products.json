@@ -109,6 +109,14 @@
       "marketplace": "No"
     },
     {
+      "title": "XWiki",
+      "link": "https://www.xwiki.org/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "Yes (Free CE)",
+      "license": "LGPL",
+      "marketplace": "Yes"
+    },
+    {
       "title": "Documize",
       "link": "https://www.documize.com/",
       "hosting": "Cloud / On Premise",
