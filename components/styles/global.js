@@ -47,6 +47,14 @@ export default function Styles() {
                 color: rgb(10, 198, 255);
                 text-decoration: none;
             }
+            nav a {
+                color: white;
+                text-decoration: none;
+            }
+            nav a:hover {
+                color: rgb(10, 198, 255);
+                text-decoration: none;
+            }
             @media only screen and (max-width: 1000px){
             .grid-container {
                       display: grid;
