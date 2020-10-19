@@ -12,7 +12,7 @@ export default function Header() {
                 <title>Bye Bye Server</title>
                 <meta
                     name="description"
-                    content="Looking for alternatives to Atlassian Server products? Do you want to move to Cloud or want to move off the Atlassian stack completely?
+                    content="Looking for alternatives to Atlassian Server products? Do you want to move to Atlassian Cloud - or do you want to move off the Atlassian stack completely?
                     We want to help you with the migration by listing alternative products as well as highlighting migration strategies."/>
             </Head>
 
