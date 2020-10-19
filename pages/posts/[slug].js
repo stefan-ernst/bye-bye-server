@@ -45,7 +45,12 @@ export default function Post({frontMatter, markdownBody}) {
               background-repeat: no-repeat;
               margin-top: 2rem;
             }
-            
+             @media only screen and (max-width: 1000px){
+                  
+                  .center-cropped {
+                    display: none;
+                  }
+              }
                 `}
             </style>
             <div className='grid-container'>

@@ -27,9 +27,15 @@ export default function BlogList({posts}) {
                flex-basis: 0%;
                padding: 1rem;
             }
+            .text {
+                flex-grow: 3;
+            }
             .half p {
                 font-size: 1.2rem;
                 font-weight: 300;
+            }
+            .half .inner {
+                max-width: 1200px;
             }
              @media only screen and (max-width: 1000px){
                   
@@ -46,10 +52,12 @@ export default function BlogList({posts}) {
             posts.map((post, index) => {
                 return (
                     <div className={'Flex'} key={index}>
-                        <div className={'half image'}> <img src={post.coverImage} style={{width:'100%'}} /></div>
-                        <div className={'half'}>
+                        <div className={'half image'}> <img src={post.coverImage} style={{width:'100%',maxWidth:500}} /></div>
+                        <div className={'half text'}>
+                            <div className={'inner'}>
                             <h2><Link href={`/posts/${post.slug}`}><a>{post.title}</a></Link></h2>
                             <p>{post.excerpt}</p></div>
+                        </div>
                     </div>
 
                 )
