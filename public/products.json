@@ -107,6 +107,14 @@
       "subscription": "Yes (Free CE)",
       "license": "BSL",
       "marketplace": "No"
+    },
+    {
+      "title": "Documize",
+      "link": "https://www.documize.com/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "Yes (Free CE)",
+      "license": "AGPL-3.0",
+      "marketplace": "No"
     }
   ]
 }
