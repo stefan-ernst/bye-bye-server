@@ -7,10 +7,6 @@ export default function BlogList({posts}) {
             <style jsx>
                 {`
                
-            .Flex {
-                display: flex;
-                justify-content: flex-start;
-            }
             h1, h2, h3 {
                 padding: 0;
                 margin: 0;
