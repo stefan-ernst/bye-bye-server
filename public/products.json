@@ -47,6 +47,14 @@
       "subscription": "Yes (On Premise free)",
       "license": "Apache 2.0",
       "marketplace": "No"
+    },
+    {
+      "title": "Tiki Trackers",
+      "link": "https://tikitrackers.org/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "No (Free)",
+      "license": "LGPLv2.1",
+      "marketplace": "No"
     }
   ],
   "jiraservicedesk": [
@@ -81,6 +89,14 @@
       "subscription": "Yes (Free CE)",
       "license": "MIT",
       "marketplace": "Yes"
+    },
+    {
+      "title": "Tiki Trackers",
+      "link": "https://tikitrackers.org/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "No (Free)",
+      "license": "LGPLv2.1",
+      "marketplace": "No"
     }
   ],
   "confluence": [
@@ -130,6 +146,14 @@
       "hosting": "Cloud / On Premise",
       "subscription": "Yes (Free CE)",
       "license": "AGPL-3.0",
+      "marketplace": "No"
+    },
+    {
+      "title": "Tiki's Wiki Engine",
+      "link": "https://doc.tiki.org/Wiki/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "No (Free)",
+      "license": "LGPLv2.1",
       "marketplace": "No"
     }
   ]
