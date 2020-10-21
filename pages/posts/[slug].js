@@ -45,12 +45,27 @@ export default function Post({frontMatter, markdownBody}) {
               background-repeat: no-repeat;
               margin-top: 2rem;
             }
+            .text {
+                font-size: 1.1rem;
+            }
              @media only screen and (max-width: 1000px){
                   
                   .center-cropped {
                     display: none;
                   }
               }
+                `}
+            </style>
+            <style jsx global>
+                {`
+                .text img {
+                    width: 85%;
+                    margin: 2rem;
+                    border: 1px solid lightgrey;
+                    border-radius: 5px;
+                    box-shadow: 0 0 1px 0 rgba(0,0,0,0.08), 0 1px 1px 0 rgba(0,0,0,0.08), 0 4px 8px 0 rgba(0,0,0,0.08);
+
+                }
                 `}
             </style>
             <div className='grid-container'>
@@ -65,7 +80,9 @@ export default function Post({frontMatter, markdownBody}) {
                             <div style={{textAlign:'right'}}><small>{frontMatter.copyright}</small></div>
                             <br />
 
+                            <div className={'text'}>
                             <ReactMarkdown source={markdownBody}/>
+                            </div>
                     </div>
                 </main>
 
