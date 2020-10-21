@@ -23,6 +23,17 @@ export default function Styles() {
               gap: 0px 0px;
               grid-template-areas: "Header Header Header Header Header" ". Main Main Main ." "Footer Footer Footer Footer Footer";
             }
+            .Flex {
+                display: flex;
+                justify-content: flex-start;
+            }
+            .Center {
+                align-items: center;
+            }
+            .Icon {
+                padding-top: 2px;
+                padding-left: 2px;
+            }
             ul {
                 list-style: none;
                
