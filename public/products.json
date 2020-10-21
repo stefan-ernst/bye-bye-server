@@ -47,6 +47,14 @@
       "subscription": "Yes (On Premise free)",
       "license": "Apache 2.0",
       "marketplace": "No"
+    },
+    {
+      "title": "Tiki Trackers",
+      "link": "https://tikitrackers.org/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "No (Free)",
+      "license": "LGPLv2.1",
+      "marketplace": "No"
     }
   ],
   "jiraservicedesk": [
