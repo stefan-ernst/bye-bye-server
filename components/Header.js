@@ -14,6 +14,7 @@ export default function Header() {
                     name="description"
                     content="Looking for alternatives to Atlassian Server products? Do you want to move to Atlassian Cloud - or do you want to move off the Atlassian stack completely?
                     We want to help you with the migration by listing alternative products as well as highlighting migration strategies."/>
+                <script async defer data-domain="bye-bye-server.com" src="https://plausible.io/js/plausible.js"></script>
             </Head>
 
             <Styles/>
