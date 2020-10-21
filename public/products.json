@@ -147,6 +147,14 @@
       "subscription": "Yes (Free CE)",
       "license": "AGPL-3.0",
       "marketplace": "No"
+    },
+    {
+      "title": "Tiki's Wiki Engine",
+      "link": "https://doc.tiki.org/Wiki/",
+      "hosting": "Cloud / On Premise",
+      "subscription": "No (Free)",
+      "license": "LGPLv2.1",
+      "marketplace": "No"
     }
   ]
 }
