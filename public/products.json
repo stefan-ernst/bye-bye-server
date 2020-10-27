@@ -160,6 +160,7 @@
      "title": "Bluespice (Mediawiki)",
      "link": "https://bluespice.com/",
      "hosting": "On Premise",
+     "subscription": "Yes",
      "license": "GPL v2 + 3",
      "marketplace": "Yes (Extensions Catalog)"
     }
