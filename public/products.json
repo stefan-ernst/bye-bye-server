@@ -55,6 +55,22 @@
       "subscription": "No (Free)",
       "license": "LGPLv2.1",
       "marketplace": "No"
+    },
+    {
+      "title": "EasyProject",
+      "link": "https://www.easyproject.com",
+      "hosting": "Cloud / On Premise",
+      "subscription": "Yes",
+      "license": "GPL v2",
+      "marketplace": "No"
+    },
+    {
+      "title": "EasyRedmine",
+      "link": "https://www.easyredmine.com",
+      "hosting": "Cloud / On Premise",
+      "subscription": "Yes",
+      "license": "GPL v2",
+      "marketplace": "No"
     }
   ],
   "jiraservicedesk": [
