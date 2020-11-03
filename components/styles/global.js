@@ -69,7 +69,7 @@ export default function Styles() {
             @media only screen and (max-width: 1000px){
             .grid-container {
                       display: grid;
-                      grid-template-columns: 1fr;
+                      grid-template-columns: 100%;
                       grid-template-rows: 110px 1fr 150px;
                       gap: 0 0;
                       grid-template-areas: "Header" "Main" "Footer";
