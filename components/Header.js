@@ -9,11 +9,10 @@ export default function Header() {
 
             <Head>
                 <link rel="shortcut icon" href="/emojione_waving-hand.png"/>
-                <title>Bye Bye Server</title>
+                <title>Bye Bye Server - Alternatives to Atlassian products</title>
                 <meta
                     name="description"
-                    content="Looking for alternatives to Atlassian Server products? Do you want to move to Atlassian Cloud - or do you want to move off the Atlassian stack completely?
-                    We want to help you with the migration by listing alternative products as well as highlighting migration strategies."/>
+                    content="Looking for alternatives to Atlassian Server products? Check our listing of alternative products as well as migration strategies for your existing Atlassian stack."/>
                 <script async defer data-domain="bye-bye-server.com" src="https://plausible.io/js/plausible.js"></script>
             </Head>
 
