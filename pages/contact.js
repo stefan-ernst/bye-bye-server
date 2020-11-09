@@ -87,6 +87,7 @@ export default function Home() {
                     CH-6343 Rotkreuz<br />
                     <br />
                     Switzerland
+                    <br /><br /><a href="https://realigned.ch" rel="noopener">https://realigned.ch</a>
                     </div>
                 </main>
 
