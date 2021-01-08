@@ -179,6 +179,14 @@
      "subscription": "Yes",
      "license": "GPL v2 + 3",
      "marketplace": "Yes (Extensions Catalog)"
+    },
+    {
+     "title": "Drupal Wiki",
+     "link": "https://drupal-wiki.com/",
+     "hosting": "SaaS / On Premise",
+     "subscription": "Yes",
+     "license": "Proprietary",
+     "marketplace": "No"
     }
   ]
 }
