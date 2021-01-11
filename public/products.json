@@ -11,7 +11,7 @@
     {
       "title": "YouTrack",
       "link": "https://www.jetbrains.com/youtrack/",
-      "hosting": "Cloud, On Premise",
+      "hosting": "Cloud, On Premises",
       "subscription": "Yes",
       "license": "Proprietary",
       "marketplace": "No"
@@ -19,7 +19,7 @@
     {
       "title": "OpenProject",
       "link": "https://www.openproject.org/",
-      "hosting": "Cloud, On Premise",
+      "hosting": "Cloud, On Premises",
       "subscription": "Yes (Free CE)",
       "license": "GPL v3",
       "marketplace": "No"
@@ -27,7 +27,7 @@
     {
       "title": "Taiga",
       "link": "https://www.taiga.io/",
-      "hosting": "Cloud, On Premise (on request)",
+      "hosting": "Cloud, On Premises (on request)",
       "subscription": "Yes",
       "license": "AGPL-3.0",
       "marketplace": "No"
@@ -35,7 +35,7 @@
     {
       "title": "Leantime",
       "link": "https://leantime.io/",
-      "hosting": "Cloud, On Premise",
+      "hosting": "Cloud, On Premises",
       "subscription": "Yes",
       "license": "GPL v2",
       "marketplace": "No"
@@ -43,15 +43,15 @@
     {
       "title": "Phabricator",
       "link": "https://www.phacility.com/phabricator/",
-      "hosting": "Cloud, On Premise",
-      "subscription": "Yes (On Premise free)",
+      "hosting": "Cloud, On Premises",
+      "subscription": "Yes (On Premises free)",
       "license": "Apache 2.0",
       "marketplace": "No"
     },
     {
       "title": "Tiki Trackers",
       "link": "https://tikitrackers.org/",
-      "hosting": "Cloud / On Premise",
+      "hosting": "Cloud / On Premises",
       "subscription": "No (Free)",
       "license": "LGPLv2.1",
       "marketplace": "No"
@@ -59,7 +59,7 @@
     {
       "title": "EasyProject",
       "link": "https://www.easyproject.com",
-      "hosting": "Cloud / On Premise",
+      "hosting": "Cloud / On Premises",
       "subscription": "Yes",
       "license": "GPL v2",
       "marketplace": "No"
@@ -67,7 +67,7 @@
     {
       "title": "EasyRedmine",
       "link": "https://www.easyredmine.com",
-      "hosting": "Cloud / On Premise",
+      "hosting": "Cloud / On Premises",
       "subscription": "Yes",
       "license": "GPL v2",
       "marketplace": "No"
@@ -85,23 +85,23 @@
     {
       "title": "Deskpro",
       "link": "https://www.deskpro.com/",
-      "hosting": "Cloud / On Premise",
+      "hosting": "Cloud / On Premises",
       "subscription": "Yes",
       "license": "Proprietary + Visible Source",
       "marketplace": "Yes"
-    },    
+    },
     {
       "title": "Helpy",
       "link": "https://helpy.io/",
-      "hosting": "Cloud / On Premise",
-      "subscription": "Yes (On Premise free)",
+      "hosting": "Cloud / On Premises",
+      "subscription": "Yes (On Premises free)",
       "license": "MIT",
       "marketplace": "No"
     },
     {
       "title": "UVDesk",
       "link": "https://www.uvdesk.com/en/",
-      "hosting": "Cloud / On Premise",
+      "hosting": "Cloud / On Premises",
       "subscription": "Yes (Free CE)",
       "license": "MIT",
       "marketplace": "Yes"
@@ -109,7 +109,7 @@
     {
       "title": "Tiki Trackers",
       "link": "https://tikitrackers.org/",
-      "hosting": "Cloud / On Premise",
+      "hosting": "Cloud / On Premises",
       "subscription": "No (Free)",
       "license": "LGPLv2.1",
       "marketplace": "No"
@@ -127,7 +127,7 @@
     {
       "title": "WikiJS",
       "link": "https://wiki.js.org/",
-      "hosting": "On Premise",
+      "hosting": "On Premises",
       "subscription": "No (Free)",
       "license": "AGPL-3.0",
       "marketplace": "No"
@@ -135,7 +135,7 @@
     {
       "title": "Bookstack",
       "link": "https://www.bookstackapp.com/",
-      "hosting": "On Premise",
+      "hosting": "On Premises",
       "subscription": "No (Free)",
       "license": "MIT",
       "marketplace": "No"
@@ -143,7 +143,7 @@
     {
       "title": "Outline",
       "link": "https://www.getoutline.com/",
-      "hosting": "Cloud / On Premise",
+      "hosting": "Cloud / On Premises",
       "subscription": "Yes (Free CE)",
       "license": "BSL",
       "marketplace": "No"
@@ -151,7 +151,7 @@
     {
       "title": "XWiki",
       "link": "https://www.xwiki.org/",
-      "hosting": "Cloud / On Premise",
+      "hosting": "Cloud / On Premises",
       "subscription": "Yes (Free CE)",
       "license": "LGPL",
       "marketplace": "Yes"
@@ -159,7 +159,7 @@
     {
       "title": "Documize",
       "link": "https://www.documize.com/",
-      "hosting": "Cloud / On Premise",
+      "hosting": "Cloud / On Premises",
       "subscription": "Yes (Free CE)",
       "license": "AGPL-3.0",
       "marketplace": "No"
@@ -167,26 +167,26 @@
     {
       "title": "Tiki's Wiki Engine",
       "link": "https://doc.tiki.org/Wiki/",
-      "hosting": "Cloud / On Premise",
+      "hosting": "Cloud / On Premises",
       "subscription": "No (Free)",
       "license": "LGPLv2.1",
       "marketplace": "No"
     },
     {
-     "title": "Bluespice (Mediawiki)",
-     "link": "https://bluespice.com/",
-     "hosting": "On Premise",
-     "subscription": "Yes",
-     "license": "GPL v2 + 3",
-     "marketplace": "Yes (Extensions Catalog)"
+      "title": "Bluespice (Mediawiki)",
+      "link": "https://bluespice.com/",
+      "hosting": "On Premises",
+      "subscription": "Yes",
+      "license": "GPL v2 + 3",
+      "marketplace": "Yes (Extensions Catalog)"
     },
     {
-     "title": "Drupal Wiki",
-     "link": "https://drupal-wiki.com/",
-     "hosting": "SaaS / On Premise",
-     "subscription": "Yes",
-     "license": "Proprietary",
-     "marketplace": "No"
+      "title": "Drupal Wiki",
+      "link": "https://drupal-wiki.com/",
+      "hosting": "SaaS / On Premises",
+      "subscription": "Yes",
+      "license": "Proprietary",
+      "marketplace": "No"
     }
   ]
 }
