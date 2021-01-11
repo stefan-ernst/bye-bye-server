@@ -1,14 +1,6 @@
 {
   "jirasoftware": [
     {
-      "title": "Jira Software Cloud",
-      "link": "https://www.atlassian.com/software/jira",
-      "hosting": "Cloud",
-      "subscription": "Yes",
-      "license": "Proprietary",
-      "marketplace": "Yes"
-    },
-    {
       "title": "EasyProject",
       "link": "https://www.easyproject.com",
       "hosting": "Cloud / On Premises",
@@ -23,6 +15,14 @@
       "subscription": "Yes",
       "license": "GPL v2",
       "marketplace": "No"
+    },
+    {
+      "title": "Jira Software Cloud",
+      "link": "https://www.atlassian.com/software/jira",
+      "hosting": "Cloud",
+      "subscription": "Yes",
+      "license": "Proprietary",
+      "marketplace": "Yes"
     },
     {
       "title": "Leantime",
@@ -75,14 +75,6 @@
   ],
   "jiraservicedesk": [
     {
-      "title": "Jira Service Desk Cloud",
-      "link": "https://www.atlassian.com/de/software/jira/service-desk",
-      "hosting": "Cloud",
-      "subscription": "Yes",
-      "license": "Proprietary",
-      "marketplace": "Yes"
-    },
-    {
       "title": "Deskpro",
       "link": "https://www.deskpro.com/",
       "hosting": "Cloud / On Premises",
@@ -97,6 +89,14 @@
       "subscription": "Yes (On Premises free)",
       "license": "MIT",
       "marketplace": "No"
+    },
+    {
+      "title": "Jira Service Desk Cloud",
+      "link": "https://www.atlassian.com/de/software/jira/service-desk",
+      "hosting": "Cloud",
+      "subscription": "Yes",
+      "license": "Proprietary",
+      "marketplace": "Yes"
     },
     {
       "title": "Tiki Trackers",
@@ -117,14 +117,6 @@
   ],
   "confluence": [
     {
-      "title": "Confluence Cloud",
-      "link": "https://www.atlassian.com/software/confluence",
-      "hosting": "Cloud",
-      "subscription": "Yes",
-      "license": "Proprietary",
-      "marketplace": "Yes"
-    },
-    {
       "title": "Bluespice (Mediawiki)",
       "link": "https://bluespice.com/",
       "hosting": "On Premises",
@@ -139,6 +131,14 @@
       "subscription": "No (Free)",
       "license": "MIT",
       "marketplace": "No"
+    },
+    {
+      "title": "Confluence Cloud",
+      "link": "https://www.atlassian.com/software/confluence",
+      "hosting": "Cloud",
+      "subscription": "Yes",
+      "license": "Proprietary",
+      "marketplace": "Yes"
     },
     {
       "title": "Documize",

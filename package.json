@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "prettier": "prettier --write .",
+    "validate": "node validations/alphabeticalOrdering.js && prettier --check ."
   },
   "dependencies": {
     "animate.css": "^4.1.0",
@@ -24,11 +26,14 @@
     "responsive-loader": "^2.0.1"
   },
   "devDependencies": {
-    "frontmatter-markdown-loader": "^3.6.0"
+    "frontmatter-markdown-loader": "^3.6.0",
+    "husky": "^4.3.7",
+    "lodash.isequal": "^4.5.0",
+    "prettier": "^2.2.1"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && yarn lint"
+      "pre-commit": "node utils/orderAltAlphabetically.js && yarn prettier"
     }
   }
 }
