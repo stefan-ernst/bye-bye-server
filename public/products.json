@@ -72,6 +72,14 @@
       "license": "Proprietary",
       "marketplace": "No"
     }
+    {
+      "title": "ZenTao ALM",
+      "link": "https://www.zentao.pm",
+      "hosting": "Cloud, On Premises",
+      "subscription": "Yes",
+      "license": "ZPL v1.2",
+      "marketplace": "No"
+    }
   ],
   "jiraservicedesk": [
     {
