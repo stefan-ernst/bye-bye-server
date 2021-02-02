@@ -19,8 +19,8 @@
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.6.2",
     "raw-loader": "^4.0.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "react-markdown": "^4.3.1",
     "rebass": "^4.0.7",
     "responsive-loader": "^2.0.1"
