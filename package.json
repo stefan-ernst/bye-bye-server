@@ -33,7 +33,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "node utils/orderAltAlphabetically.js && yarn prettier"
+      "pre-commit": "node utils/orderAltAlphabetically.js && npm run prettier"
     }
   }
 }
