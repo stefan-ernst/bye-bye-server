@@ -1,5 +1,13 @@
 {
   "jirasoftware": [
+     {
+      "title": "Hansoft",
+      "link": "https://www.perforce.com/products/hansoft",
+      "hosting": "On Premises",
+      "subscription": "Yes",
+      "license": "Proprietary",
+      "marketplace": "No"
+    },
     {
       "title": "EasyProject",
       "link": "https://www.easyproject.com",
