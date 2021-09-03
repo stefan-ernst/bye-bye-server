@@ -131,6 +131,14 @@
       "marketplace": "Yes"
     },
     {
+      "title": "Zammad",
+      "link": "https://zammad.org",
+      "hosting": "Cloud, On Premises",
+      "subscription": "Yes (For Support, Free CE)",
+      "license": "AGPLv3",
+      "marketplace": "No"
+    },
+    {
       "title": "ZenTao ALM",
       "link": "https://www.zentao.pm",
       "hosting": "Cloud, On Premises",
