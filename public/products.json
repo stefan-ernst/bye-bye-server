@@ -99,6 +99,14 @@
       "marketplace": "Yes"
     },
     {
+      "title": "Freescout",
+      "link": "https://freescout.net/",
+      "hosting": "On Premises",
+      "subscription": "No",
+      "license": "AGPLv3",
+      "marketplace": "Yes"
+    },
+    {
       "title": "Helpy",
       "link": "https://helpy.io/",
       "hosting": "Cloud / On Premises",
