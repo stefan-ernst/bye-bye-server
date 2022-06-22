@@ -49,14 +49,6 @@
       "marketplace": "No"
     },
     {
-      "title": "Phabricator",
-      "link": "https://www.phacility.com/phabricator/",
-      "hosting": "Cloud, On Premises",
-      "subscription": "Yes (On Premises free)",
-      "license": "Apache 2.0",
-      "marketplace": "No"
-    },
-    {
       "title": "Taiga",
       "link": "https://www.taiga.io/",
       "hosting": "Cloud, On Premises (on request)",
