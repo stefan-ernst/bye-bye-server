@@ -173,6 +173,14 @@
       "marketplace": "Yes"
     },
     {
+      "title": "Docmost",
+      "link": "https://docmost.com/",
+      "hosting": "Cloud / On Premises",
+      "subscription": "Yes (Free CE)",
+      "license": "AGPL-3.0",
+      "marketplace": "No"
+    },
+    {
       "title": "Documize",
       "link": "https://www.documize.com/",
       "hosting": "Cloud / On Premises",
